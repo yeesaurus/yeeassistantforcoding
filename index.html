@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+
+<html lang="cs-cz">
+    <head>
+        <meta charset="utf-8" />
+        <title>yeeAssistent</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.write("yeet")
+        </script>
+    </body>
+</html>
