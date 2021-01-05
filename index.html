@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 <html lang="cs-cz">
@@ -26,22 +25,21 @@
             </ul>  
         </nav>   
         <div class="searchbox">
-            <input class="search-txt" type="text" name="" placeholder="Search..">
+            <input class="search-txt" type="text" name="Search" placeholder="Search..">
             <a class="search-btn" href="#">
                 <i class="fas fa-search"></i>
             </a>
         </div>
-        <script type="text/javascript">
-        let hour;
-        let min = 9;
-        let d = new Date();
-        if (min < 10){
-            min = "0" + min;
-        }
-
-
-
-        document.write( d.getHours() + ":" + (min));
-        </script>
+        <div class="jscript">
+            <script type="text/javascript">
+                let hour;
+                let min = 9;
+                let d = new Date();
+                if (min < 10){
+                    min = "0" + min;
+                }
+                document.write( d.getHours() + ":" + (d.getMinutes()));
+            </script>
+        </div>
     </body>
 </html>
