@@ -32,6 +32,16 @@
             </a>
         </div>
         <script type="text/javascript">
+        let hour;
+        let min = 9;
+        let d = new Date();
+        if (min < 10){
+            min = "0" + min;
+        }
+
+
+
+        document.write( d.getHours() + ":" + (d.getMinutes()));
         </script>
     </body>
 </html>
