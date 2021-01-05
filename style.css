@@ -8,7 +8,7 @@ body{
 .searchbox{
     position: absolute;
     top: 60%;
-    left: 37%;
+    left: 38%;
     transform: translate(-50%, -50);
     background: #F0EDEE;
     height: 35px;
@@ -76,3 +76,44 @@ nav ul li a {
 a:hover {
     background-color: rgb(23, 23, 56);
   }
+
+.animated-text{
+    color: #F0EDEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0E1C36;
+    padding: 0 10cm;
+    height: 60px;
+    overflow: hidden;
+}
+
+.line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.line:first-child{
+    animation: anim 10s infinite;
+}
+
+@keyframes anim{
+    0%{
+        margin-top: -0px;
+    }
+    25%{
+        margin-top: -60px;
+    }
+    50%{
+        margin-top: -120px;
+    }
+    75%{
+        margin-top: -180px;
+    }
+    100%{
+        margin-top: -0px;
+    }
+}
