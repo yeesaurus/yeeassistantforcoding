@@ -22,7 +22,8 @@ p{
 .searchbox{
     position: absolute;
     top: 60%;
-    left: 38%;
+    left: 50%;
+    transform: translateX(-50%);
     transform: translate(-50%, -50);
     background: #F0EDEE;
     height: 35px;
@@ -34,7 +35,7 @@ p{
 }
 
 .search-btn{
-    color: rgb(22, 25, 37);
+    color:rgb(22, 25, 37);
     float: right;
     width: 40px;
     height: 35px;
