@@ -1,3 +1,14 @@
-:root{
+body{
     background-image: url(images/Background.png);
+    margin: 0;
+    padding: 0;
+}
+.searchbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50);
+    background: #F0EDEE;
+    height: 30px;
+    border-radius: 40px;
 }
