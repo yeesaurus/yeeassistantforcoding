@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(22, 25, 37);
     margin: 0;
@@ -8,15 +9,35 @@ body{
 .searchbox{
     position: absolute;
     top: 60%;
-    left: 45%;
+    left: 38%;
     transform: translate(-50%, -50);
     background: #F0EDEE;
-    height: 30px;
+    height: 35px;
     border-radius: 40px;
     padding: 10px;
 
 }
 
 .search-btn{
-    color: rgb(22, 25, 37)
+    color: rgb(22, 25, 37);
+    float: right;
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    line-height: 35px;
+    width: 10cm;
+    transition: 0.4;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
