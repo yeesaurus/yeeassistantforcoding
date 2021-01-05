@@ -19,6 +19,13 @@ p{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.jscript{
+    position: absolute;
+    top: 14px;
+    left: 95%;
+    font-size: 27px;
+}
 .searchbox{
     position: absolute;
     top: 60%;
