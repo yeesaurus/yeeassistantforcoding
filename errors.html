@@ -20,8 +20,8 @@
             <table>
                 <tr>
                     <td>
-                        <h1>Errors</h1>
-                        <h4>Hello! Here you can find most usual Errors.</h3>
+                        <h1>About us</h1>
+                        <h4>Hello! You have unsolved issue? Search your issue here.</h3>
                         </br>
                         <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
@@ -33,7 +33,15 @@
                 </tr>
             </table>
         </center>
-        <script type="text/javascript">
-        </script>
+        <div class="jscript">
+            <script type="text/javascript">
+                let hour;
+                let min = 9;
+                let d = new Date();
+                if (min < 10){
+                    min = "0" + min;
+                }
+                document.write( d.getHours() + ":" + (d.getMinutes()));
+            </script>
     </body>
 </html>
