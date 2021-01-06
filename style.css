@@ -7,20 +7,19 @@ body{
 
 table{
     font-size: 30px;
-    text-align: center;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    width: 25cm;
 }
 p{
     font-size: 20px;
-    text-align: center;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 33%;
+    transform: translateX(-49%);
 }
 
-.jscript{
+.Time{
     position: absolute;
     top: 14px;
     left: 95%;
