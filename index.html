@@ -30,12 +30,16 @@
                 <i class="fas fa-search"></i>
             </a>
         </div>
-        <div class="jscript">
+        <div class="Time">
             <script type="text/javascript">
+                let hour;
+                let min = 9;
                 let d = new Date();
-                document.write(d.getMinutes + d.getHours);
-                document.write("</div>")
+                if (min < 10){
+                    min = "0" + min;
+                }
+                document.write( d.getHours() + ":" + (d.getMinutes()));
+            document.write("</div>")
             </script>
-        </div>
-    </body>
-</html>
+        </body>
+    </html>
