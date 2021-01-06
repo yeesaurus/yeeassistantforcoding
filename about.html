@@ -16,13 +16,12 @@
                 <li><a href="errors.html">Errors</a></li>
             </ul>  
         </nav>  
-        <center>
             <table>
                 <tr>
                     <td>
-                        <h1>Errors</h1>
-                        <h4>Hello! Here you can find most usual Errors</h3>
-                        </br>
+                        <h1>About us</h1>
+                        <h4>Hello! You have unsolved issue? Search your issue here.</h4>
+                        <br>
                         <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                             </br>br>Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero,
@@ -32,11 +31,15 @@
                     </td>
                 </tr>
             </table>
-        </center>
         <div class="Time">
             <script type="text/javascript">
+                let hour;
+                let min = 9;
                 let d = new Date();
-                document.write(d.getMinutes + d.getHours);
+                if (min < 10){
+                    min = "0" + min;
+                }
+                document.write( d.getHours() + ":" + (d.getMinutes()));
                 document.write("</div>")
             </script>
     </body>
