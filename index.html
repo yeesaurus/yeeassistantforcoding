@@ -32,19 +32,21 @@
         </div>
         <div class="jscript">
             <script type="text/javascript">
-                let d = new Date();
+            let d = new Date();
+            let always = true
+            while (always == true){
             if ((d.getMinutes < 10) & (d.getHours > 9)){
-                document.write( d.getHours() + ":" + "0" + (min));
+                document.write( d.getHours() + ":" + "0" + (d.gethours()));
             }
             else if ((d.getMinutes < 10) & (d.getHours < 10)){
-                document.write("0" + d.getHours() + ":" + "0" + (min));
+                document.write("0" + d.getHours() + ":" + "0" + (d.gethours()));
             }
             else if ((d.getMinutes > 9) & (d.getHours < 10)){
-                document.write("0" + d.getHours() + ":" + (min));
+                document.write("0" + d.getHours() + ":" + (d.gethours()));
             }
             else{
-                document.write( d.getHours() + ":" + (min));
-            }
+                document.write( d.getHours() + ":" + (d.gethours()));
+            }}
             </script>
         </div>
     </body>
