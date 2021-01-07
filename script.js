@@ -3,7 +3,7 @@ function realtimeClock() {
     var rtClock = new Date();
 
     var hours = rtClock.getHours();
-    var minutes = rtClock.getMinutes;
+    var minutes = rtClock.getMinutes();
 
     var amPm = ( hours < 12 ) ? "AM" : "PM";
 
@@ -13,6 +13,6 @@ function realtimeClock() {
     minutes = ("0" + minutes).slice(-2);
 
     document.getElementById('clock').innerHTML =
-        hours + "  :  " + minutes + " " + amPm;
+        hours + ":" + minutes + " " + amPm;
     var t = setTimeout(realtimeClock, 500);
 }
