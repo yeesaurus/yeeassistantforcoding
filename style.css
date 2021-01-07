@@ -18,13 +18,6 @@ p{
     left: 33%;
     transform: translateX(-49%);
 }
-
-.Time{
-    position: absolute;
-    top: 14px;
-    left: 95%;
-    font-size: 27px;
-}
 .searchbox{
     position: absolute;
     top: 60%;
@@ -137,7 +130,13 @@ a:hover {
         margin-top: -0px;
     }
 }
-
+#clock{
+    font-size: 27px;
+    color: #F0EDEE;
+    position: absolute;
+    left: 94%;
+    top: 2%;
+}
 .calculator{
     position: absolute;
     top: 30%;
