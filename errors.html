@@ -65,6 +65,34 @@
                         return ( time );         
                     }
                 }
+                        function clock ()                                      
+                {
+                    document.form_clock.input_clock.value = show_time ();                                                                                                 
+                    setTimeout ( "clock ()", 1000 );                      
+                }
+                      
+                function show_time ()
+                {
+                    var now = new Date ();
+  
+                    var hours = now.getHours ();              
+                    var minutes = now.getMinutes ();                        
+  
+                    var time = format ( hours ) + " : " + format ( minutes );
+                    return ( time );          
+                }          
+                function format ( time )
+                { 
+                    if ( time < 10 )          
+                    {
+                        return ( "0" + time );
+                    }                       
+                    else                      
+                    {
+                        return ( time );         
+                    }
+                }
+                document.write("</div>")
             </script>
     </body>
 </html>
