@@ -176,3 +176,130 @@ a:hover {
     grid-row: span 2;
     height: 80px;
 }
+
+.calculator span.nasobeni{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.seven{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.eight{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.nine{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.minus{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.four{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.five{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.six{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.plus{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.deleni{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.three{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.two{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.one{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.zero{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.zerozero{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.dot{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.pi{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
+.calculator span.equal{
+    height: 80;
+    width: 80;
+    position: absolute;
+    top: 100%;
+    left: 100%
+}
