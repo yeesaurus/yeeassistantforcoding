@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body text="D1D3C4">
-        <body onload="clock ()">
-            <table><tr><td><form name="form_clock"><input name="input_clock" type="text" class="Time" 
+        <div class="Time"></div>
+        <input name="input_clock" type="text" class="Time" size="3">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -38,33 +39,6 @@
         </center>
         <div class="Time">
             <script type="text/javascript">
-                function clock ()                                      
-                {
-                    document.form_clock.input_clock.value = show_time ();                                                                                                 
-                    setTimeout ( "clock ()", 1000 );                      
-                }
-                      
-                function show_time ()
-                {
-                    var now = new Date ();
-  
-                    var hours = now.getHours ();              
-                    var minutes = now.getMinutes ();                        
-  
-                    var time = format ( hours ) + " : " + format ( minutes );
-                    return ( time );          
-                }          
-                function format ( time )
-                { 
-                    if ( time < 10 )          
-                    {
-                        return ( "0" + time );
-                    }                       
-                    else                      
-                    {
-                        return ( time );         
-                    }
-                }
                         function clock ()                                      
                 {
                     document.form_clock.input_clock.value = show_time ();                                                                                                 
