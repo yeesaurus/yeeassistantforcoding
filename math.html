@@ -9,8 +9,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body text="D1D3C4">
-        <body onload="clock ()">
-            <table><tr><td><form name="form_clock"><input name="input_clock" type="text" class="Time" 
+        <div class="Time"></div>
+        <input name="input_clock" type="text" class="Time" size="3">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,22 +23,22 @@
         <form class="calculator" name="calc">
             <input class="value" type="text" name="txt" readonly="">
             <span class="num clear" onclick="document.calc.txt.value =''">c</span>
-            <span class="num" onclick="document.calc.txt.value +='/'">/</span>
-            <span class="num" onclick="document.calc.txt.value +='*'">*</span>
-            <span class="num" onclick="document.calc.txt.value +='7'">7</span>
-            <span class="num" onclick="document.calc.txt.value +='8'">8</span>
-            <span class="num" onclick="document.calc.txt.value +='9'">9</span>
-            <span class="num" onclick="document.calc.txt.value +='-'">-</span>
-            <span class="num" onclick="document.calc.txt.value +='4'">4</span>
-            <span class="num" onclick="document.calc.txt.value +='5'">5</span>
-            <span class="num" onclick="document.calc.txt.value +='6'">6</span>
+            <span class="num nasobeni" onclick="document.calc.txt.value +='*'">*</span>
+            <span class="num seven" onclick="document.calc.txt.value +='7'">7</span>
+            <span class="num eight" onclick="document.calc.txt.value +='8'">8</span>
+            <span class="num nine" onclick="document.calc.txt.value +='9'">9</span>
+            <span class="num minus" onclick="document.calc.txt.value +='-'">-</span>
+            <span class="num four" onclick="document.calc.txt.value +='4'">4</span>
+            <span class="num five" onclick="document.calc.txt.value +='5'">5</span>
+            <span class="num six" onclick="document.calc.txt.value +='6'">6</span>
             <span class="num plus" onclick="document.calc.txt.value +='+'">+</span>
-            <span class="num" onclick="document.calc.txt.value +='3'">3</span>
-            <span class="num" onclick="document.calc.txt.value +='2'">2</span>
-            <span class="num" onclick="document.calc.txt.value +='1'">1</span>
-            <span class="num" onclick="document.calc.txt.value +='0'">0</span>
-            <span class="num" onclick="document.calc.txt.value +='00'">00</span>
-            <span class="num" onclick="document.calc.txt.value +='.'">.</span>
+            <span class="num deleni" onclick="document.calc.txt.value +='/'">/</span>
+            <span class="num three" onclick="document.calc.txt.value +='3'">3</span>
+            <span class="num two" onclick="document.calc.txt.value +='2'">2</span>
+            <span class="num one" onclick="document.calc.txt.value +='1'">1</span>
+            <span class="num zero" onclick="document.calc.txt.value +='0'">0</span>
+            <span class="num zerozero" onclick="document.calc.txt.value +='00'">00</span>
+            <span class="num dot" onclick="document.calc.txt.value +='.'">.</span>
             <span class="num pi" onclick="document.calc.txt.value +='3.1415926'">3,14</span>
             <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>            
         </form>
@@ -50,34 +51,7 @@
             </table>
         <div class="Time">
             <script type="text/javascript">
-                function clock ()                                      
-                {
-                    document.form_clock.input_clock.value = show_time ();                                                                                                 
-                    setTimeout ( "clock ()", 1000 );                      
-                }
-                      
-                function show_time ()
-                {
-                    var now = new Date ();
-  
-                    var hours = now.getHours ();              
-                    var minutes = now.getMinutes ();                        
-  
-                    var time = format ( hours ) + " : " + format ( minutes );
-                    return ( time );          
-                }          
-                function format ( time )
-                { 
-                    if ( time < 10 )          
-                    {
-                        return ( "0" + time );
-                    }                       
-                    else                      
-                    {
-                        return ( time );         
-                    }
-                }
-                        function clock ()                                      
+                 function clock ()                                      
                 {
                     document.form_clock.input_clock.value = show_time ();                                                                                                 
                     setTimeout ( "clock ()", 1000 );                      
@@ -105,6 +79,7 @@
                     }
                 }
                 document.write("</div>")
+
             </script>
     </body>
 </html>
