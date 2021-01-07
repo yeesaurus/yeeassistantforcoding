@@ -40,7 +40,76 @@
                 {
                     document.form_clock.input_clock.value = show_time ();                                                                                                 
                     setTimeout ( "clock ()", 1000 );                      
+                }<!DOCTYPE html>
+
+<html lang="cs-cz">
+    <head>
+        <meta charset="utf-8" />
+        <title>yeeAssistent</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body text="D1D3C4">
+        <div class="Time"></div>
+        <input name="input_clock" type="text" class="Time" size="3">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="errors.html">Errors</a></li>
+                <li><a href="math.html">Math</a></li>
+            </ul>  
+        </nav>  
+            <table>
+                <tr>
+                    <td>
+                        <h1>About us</h1>
+                        <h4>Hello! You have unsolved issue? Search your issue here.</h4>
+                        <br>
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                            </br>br>Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero,
+                            </br> eget facilisis enim ipsum id lacus. Maecenas sollicitudin. 
+                            </br> Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. In laoreet, magna id viverra tincidunt, </br>sem odio bibendum justo, vel imperdiet sapien wisi sed libero.</br> Mauris metus. 
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        <div class="Time">
+            <script type="text/javascript">
+                    function clock ()                                      
+                {
+                    document.form_clock.input_clock.value = show_time ();                                                                                                 
+                    setTimeout ( "clock ()", 1000 );                      
                 }
+                      
+                function show_time ()
+                {
+                    var now = new Date ();
+  
+                    var hours = now.getHours ();              
+                    var minutes = now.getMinutes ();                        
+  
+                    var time = format ( hours ) + " : " + format ( minutes );
+                    return ( time );          
+                }          
+                function format ( time )
+                { 
+                    if ( time < 10 )          
+                    {
+                        return ( "0" + time );
+                    }                       
+                    else                      
+                    {
+                        return ( time );         
+                    }
+                }
+                document.write("</div>")
+            </script>
+    </body>
+</html>
                       
                 function show_time ()
                 {
