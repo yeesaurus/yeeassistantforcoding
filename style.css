@@ -134,8 +134,9 @@ a:hover {
     font-size: 27px;
     color: #F0EDEE;
     position: absolute;
-    left: 94%;
+    left: 95%;
     top: 2%;
+    transform: translateX(-25%);
 }
 .calculator{
     position: absolute;
