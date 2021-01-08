@@ -131,12 +131,14 @@ a:hover {
     }
 }
 #clock{
+   display: block;
     font-size: 27px;
     color: #F0EDEE;
+    padding: 14px 96.5%;
     position: absolute;
-    left: 95%;
-    top: 2%;
-    transform: translateX(-25%);
+    top: -0.1%;
+    transform: translateX(-12px);
+    text-decoration: none;
 }
 .calculator{
     position: absolute;
