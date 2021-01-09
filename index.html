@@ -26,8 +26,16 @@
                 <li><a href="other.html">Other</a></li>
             </ul>  
         </nav>   
-        <div class="searchbox">
-            <input class="search-txt" type="text" name="Search" placeholder="Search..">
+                <div class="searchbox">
+            <input class="search-txt" type="text" name="Search" placeholder="Search.." value="" onchange="dosearch ()" id="search">
+            // searching script
+            <script>
+            function dosearch()
+            {
+                var txt = document.getElementById("search").value;
+                
+            }
+            </script>
             <a class="search-btn" href="#">
                 <i class="fas fa-search"></i>
             </a>
