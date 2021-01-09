@@ -131,14 +131,12 @@ a:hover {
     }
 }
 #clock{
-   display: block;
     font-size: 27px;
     color: #F0EDEE;
-    padding: 14px 96.5%;
     position: absolute;
-    top: -0.1%;
+    top: 2%;
+    left: 96.4%;
     transform: translateX(-12px);
-    text-decoration: none;
 }
 .calculator{
     position: absolute;
@@ -162,7 +160,7 @@ a:hover {
     width: 80px;
     height: 80px;
     color: #F0EDEE;
-    background:rgb(23, 23, 56);
+    background:rgb(3, 43, 67);
     place-items: center;
     border: 1px solid rgb(22, 25, 37);
 }
@@ -184,124 +182,124 @@ a:hover {
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.seven{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.eight{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.nine{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.minus{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.four{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.five{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.six{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.plus{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.deleni{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.three{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.two{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.one{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.zero{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.zerozero{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.dot{
     height: 80;
     width: 80;
     position: absolute;
     top: 100%;
-    left: 100%
+    left: 100%;
 }
 .calculator span.pi{
     height: 80;
     width: 80;
     position: absolute;
-    top: 100%;
-    left: 100%
+    top: 55%;
+    left: 73%
 }
 .calculator span.equal{
     height: 80;
     width: 80;
     position: absolute;
-    top: 100%;
-    left: 100%
+    top: 55%;
+    left: 109.5%;
 }
