@@ -12,3 +12,12 @@ function realtimeClock() {
         hours + ":" + minutes;
     var t = setTimeout(realtimeClock, 500);
 }
+
+function dosearch()
+{
+    var txt = document.getElementById("search").value;
+                
+    var stackoverflow = "https://stackoverflow.com/search?q=" + txt + "&s=717bc4c6-ce7b-46c8-bddf-6d97e9bdd2bf";
+                
+    document.write(stackoverflow);
+}
