@@ -12,6 +12,12 @@ table{
     transform: translateX(-50%);
     width: 25cm;
 }
+.credit a {
+    font-size: 27px;
+    color: #F0EDEE;
+    text-decoration: none;
+    list-style: none;
+}
 p{
     font-size: 20px;
     position: absolute;
@@ -136,5 +142,5 @@ a:hover {
     position: absolute;
     top: 2%;
     left: 96.4%;
-    transform: translateX(-12px);
+    transform: translateX(-18px);
 }
