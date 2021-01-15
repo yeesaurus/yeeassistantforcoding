@@ -18,6 +18,18 @@ table{
     text-decoration: none;
     list-style: none;
 }
+.email{
+    font-size: 24px;
+    position: absolute;
+    left: 0.7%;
+    transform: translateX(-1%);    
+}
+.discord{
+    font-size: 24px;
+    position: absolute;
+    left: 0.7%;
+    transform: translateX(-1%);       
+}
 p{
     font-size: 20px;
     position: absolute;
