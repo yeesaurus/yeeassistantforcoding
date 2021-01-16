@@ -27,8 +27,17 @@ table{
 .discord{
     font-size: 24px;
     position: absolute;
-    left: 0.7%;
+    left: 0.3%;
     transform: translateX(-1%);       
+}
+.discordlink{
+    font-size: 24px;
+    color: #F0EDEE;
+    position: absolute;
+    left: 8.2%;
+    transform: translateX(-1%);  
+    text-decoration: none;
+    list-style: none;
 }
 p{
     font-size: 20px;
@@ -156,3 +165,4 @@ a:hover {
     left: 96.4%;
     transform: translateX(-2.3%);
 }
+
