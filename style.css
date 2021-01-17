@@ -52,6 +52,7 @@ p{
     transform: translateX(-50%);
     background: #F0EDEE;
     height: 35px;
+    width: 22%;
     border-radius: 40px;
     padding: 10px;
     justify-content: center;
@@ -66,8 +67,12 @@ p{
     height: 35px;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translateX(-2.3%);
+     
 }   
 
 .search-txt{
@@ -126,6 +131,7 @@ a:hover {
     background-color: #0E1C36;
     padding: 0 10cm;
     height: 60px;
+    width: 20%;
     overflow: hidden;
 }
 
@@ -163,6 +169,6 @@ a:hover {
     position: absolute;
     top: 2%;
     left: 96.4%;
+    width: 10%;
     transform: translateX(-2.3%);
 }
-
