@@ -14,19 +14,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body text="D1D3C4" onload="realtimeClock()">
+        <table width=100% border=0>
+            <tr><td align=left>
+                    <nav>
+                            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="errors.html">Errors</a></li>
+                
+                            </ul>  
+                    </nav>  
+                </td>
+                <td align=right>
+                    <div id="clock">
+                    </div>
+                    
+                </td>
+                <td width=1%>&nbsp;</td>
+            </tr>
+            </table>
         <div class="animated-text">
             <div class="line">Need</div>
             <div class="line">Help</div>
             <div class="line">With</div>
             <div class="line">Issue?</div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="errors.html">Errors</a></li>
-            </ul>  
-        </nav>  
             <div class="searchbox">
             <input class="search-txt" type="text" name="Search" placeholder="Search.." value="" onchange="dosearch ()" id="search">
             <script>
@@ -36,8 +48,6 @@
                 <i class="fas fa-search"></i>
             </a>
         </div>
-        <div id="clock">
-
-        </div>
+        
         </body>
     </html>
