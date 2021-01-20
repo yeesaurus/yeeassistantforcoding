@@ -4,11 +4,6 @@ body{
     padding: 0;
     font-family: 'Oswald', sans-serif;
 }
-
-table{
-    font-size: 30px;
-
-}
 .credit a {
     font-size: 27px;
     color: #F0EDEE;
@@ -30,19 +25,42 @@ table{
     text-decoration: none;
     list-style: none;
 }
-p{
-    font-size: 20px;
-    float: left;
+.abouttext{
+    font-size: 24px;
+    line-height: 40px
 }
-.texterrors{
-    width: 100%;
+.abouttext h3{
+    font-size: 32px;
 }
-.texterrors p{
-    padding: 5px 0px 0px;
+.abouttext h1{
+    font-size: 52px;
 }
-texterrors h5{
-    font-size: 80px;
+.abouttext p{
+    padding: 0px 7px;
+    font-size: 24px;
 }
+.howtouse{
+    font-size: 24px;
+    line-height: 40px
+}
+.howtouse h3{
+    font-size: 32px;
+}
+.howtouse h1{
+    font-size: 52px;
+}
+.text{
+    font-size: 24px;
+    line-height: 40px
+}
+.text h5{
+    font-size: 32px;
+}
+.text h1{
+    font-size: 52px;
+}
+
+
 .searchbox{
     position: absolute;
     top: 60%;
