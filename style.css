@@ -1,168 +1,172 @@
+
 body{
-    background-color: rgb(22, 25, 37);
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
+  background-color: rgb(22, 25, 37);
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 .credit a {
-    font-size: 27px;
-    color: #F0EDEE;
-    text-decoration: none;
-    list-style: none;
+  font-size: 27px;
+  color: #F0EDEE;
+  list-style: none;
 }
 .email{
-    font-size: 24px;
-    transform: translateX(-1%);    
+  font-size: 24px;
+  transform: translateX(-1%);
 }
 .discord{
-    font-size: 24px;
-    transform: translateX(-1%);       
+  font-size: 24px;
+  transform: translateX(-1%);
 }
 .discordlink{
-    font-size: 24px;
-    color: #F0EDEE;
-    transform: translateX(-1%);  
-    text-decoration: none;
-    list-style: none;
+  font-size: 24px;
+  color: #F0EDEE;
+  transform: translateX(-1%);
+  list-style: none;
 }
 .abouttext{
-    font-size: 24px;
-    line-height: 40px
+  font-size: 24px;
+  line-height: 40px
 }
 .abouttext h3{
-    font-size: 32px;
+  font-size: 32px;
 }
 .abouttext h1{
-    font-size: 52px;
+  font-size: 52px;
 }
 .abouttext p{
-    padding: 0px 7px;
-    font-size: 24px;
+  padding: 0px 7px;
+  font-size: 24px;
 }
 .howtouse{
-    font-size: 24px;
-    line-height: 40px
+  font-size: 24px;
+  line-height: 40px
 }
 .howtouse h3{
-    font-size: 32px;
+  font-size: 32px;
 }
 .howtouse h1{
-    font-size: 52px;
+  font-size: 52px;
 }
 .text{
-    font-size: 24px;
-    line-height: 40px
+  font-size: 24px;
+  line-height: 40px
 }
 .text h5{
-    font-size: 32px;
+  font-size: 32px;
 }
 .text h1{
-    font-size: 52px;
+  font-size: 52px;
 }
 
 
 .searchbox{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #F0EDEE;
-    height: 35px;
-    border-radius: 40px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #F0EDEE;
+  height: 35px;
+  border-radius: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .search-txt{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    line-height: 35px;
-    width: 10cm;
-    transition: 0.4;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-    justify-content: center;
-    align-items: center;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  line-height: 35px;
+  width: 10cm;
+  transition: 0.4;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  justify-content: center;
+  align-items: center;
 }
+.center{
+  position: absolute;
+  left: 20%;
+  right: 50%;
 
+}
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    width: 100%;
-    height: 60px;
-    background-color: rgb(22, 25, 37);
+  width: 100%;
+  height: 60px;
+  background-color: rgb(22, 25, 37);
 }
 
 nav ul {
-    float: left;
+  float: left;
 }
 
 nav ul li {
-    float: left;
-    list-style: none;
+  float: left;
+  list-style: none;
 }
 
 nav ul li a {
-    display: block;
-    font-size: 27px;
-    color: #F0EDEE;
-    padding: 14px 24px;
-    text-decoration: none;
+  display: block;
+  font-size: 27px;
+  color: #F0EDEE;
+  padding: 14px 24px;
+  text-decoration: none;
 }
 
-a:hover {
-    background-color: rgb(23, 23, 56);
-  }
+.linkbox a:hover {
+  background-color: rgb(23, 23, 56);
+}
 
 .animated-text{
-    color: #F0EDEE;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #0E1C36;
-    padding: 0 10cm;
-    height: 60px;
-    overflow: hidden;
+  color: #F0EDEE;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0E1C36;
+  padding: 0 10cm;
+  height: 60px;
+  overflow: hidden;
 }
 
 .line{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 40px;
-    line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
 }
 
 .line:first-child{
-    animation: anim 10s infinite;
+  animation: anim 10s infinite;
 }
 
 @keyframes anim{
-    0%{
-        margin-top: -0px;
-    }
-    25%{
-        margin-top: -60px;
-    }
-    50%{
-        margin-top: -120px;
-    }
-    75%{
-        margin-top: -180px;
-    }
-    100%{
-        margin-top: -0px;
-    }
+  0%{
+      margin-top: -0px;
+  }
+  25%{
+      margin-top: -60px;
+  }
+  50%{
+      margin-top: -120px;
+  }
+  75%{
+      margin-top: -180px;
+  }
+  100%{
+      margin-top: -0px;
+  }
 }
 #clock{
-    font-size: 27px;
-    color: #F0EDEE;
+  font-size: 27px;
+  color: #F0EDEE;
 }
