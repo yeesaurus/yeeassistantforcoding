@@ -21,8 +21,5 @@ function dosearch()
     document.getElementById("reddit").href = "https://www.reddit.com/search?q=" + txt + "&type=sr%2Cuser";
     document.getElementById("wikipedia").href = "https://en.wikipedia.org/wiki/" + txt ;
 
-    window.open("/links.html");
+    window.open("links.html");
 }
-//<ul>
-//    <li><a href="links.html"></a></li>
-//</ul>
