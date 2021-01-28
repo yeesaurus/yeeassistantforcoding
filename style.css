@@ -113,7 +113,6 @@ nav ul li {
   float: left;
   list-style: none;
 }
-
 nav ul li a {
   display: block;
   font-size: 27px;
@@ -121,11 +120,20 @@ nav ul li a {
   padding: 14px 24px;
   text-decoration: none;
 }
-
 .linkbox a:hover {
   background-color: rgb(23, 23, 56);
 }
-
+.image{
+  width: 300px;
+  height: 300px;
+}
+.links{
+  font-size: 48px;
+  color: #F0EDEE;
+  transform: translateX(-1%);
+  list-style: none;
+  text-decoration: none;
+}
 .animated-text{
   color: #F0EDEE;
   position: absolute;
