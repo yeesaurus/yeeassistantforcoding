@@ -1,4 +1,4 @@
 
-![BannerYeeAssistantForCoding](https://user-images.githubusercontent.com/76060398/106156596-05730980-6182-11eb-98a4-6a1ef2554102.png)
+![BannerYeeAssistantForCoding](https://user-images.githubusercontent.com/76060398/106157637-330c8280-6183-11eb-9fce-a13e23ac1fbe.png)
 
 # 🦖Introduction
