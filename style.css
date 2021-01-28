@@ -122,6 +122,7 @@ nav ul li a {
 }
 .linkbox a:hover {
   background-color: rgb(23, 23, 56);
+  border-radius: 10px;
 }
 .image{
   width: 300px;
