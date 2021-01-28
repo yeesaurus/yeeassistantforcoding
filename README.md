@@ -17,4 +17,4 @@
    
    This is our first project!!
    
-   ***We will be very happy if you Vote for us in Tymathon!!***
+   ***We will be very happy if you Vote for us in Timathon!!***
