@@ -11,7 +11,7 @@
   In home page you can find searcher. There write your issue and wait. Then click on the stackoverflow, reddit or Wikipedia and it will open your issue solver. In about page is something about us and more. In Errors page you can find most usual errors.
 
 ## 🦕YeeTeam
-   We are team of 2!
+   We are team of 2 from Czechia!
    
    We love tea and cola!
    
