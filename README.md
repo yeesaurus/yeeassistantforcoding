@@ -3,7 +3,7 @@
    Hello! Do you have an unsolved issue? Search your issue here.
    
 ## 🦕How to start?
-   First download the YeeAssistentForCoding from our [github](https://github.com/yeesaurus/yeeassistentforcoding).
+   First download the YeeAssistAntForCoding from our [github](https://github.com/yeesaurus/yeeassistentforcoding).
    When is YeeAssistentForCoding downloaded open index.html and yahoo you started it!!   
    Of course we have YeeAssistentForCoding online. [Click here](https://yeesaurus.github.io/yeeassistentforcoding/) to visit
    
