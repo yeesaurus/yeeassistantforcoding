@@ -58,8 +58,6 @@ body{
 .text h1{
   font-size: 52px;
 }
-
-
 .searchbox{
   position: absolute;
   top: 60%;
@@ -73,7 +71,6 @@ body{
   align-items: center;
 
 }
-
 .search-txt{
   border: none;
   background: none;
@@ -129,11 +126,15 @@ nav ul li a {
   height: 300px;
 }
 .links{
-  font-size: 48px;
+  font-size: 50px;
   color: #F0EDEE;
   transform: translateX(-1%);
   list-style: none;
   text-decoration: none;
+}
+.up{
+  position: absolute;
+  top: 15%;
 }
 .animated-text{
   color: #F0EDEE;
@@ -179,3 +180,8 @@ nav ul li a {
   font-size: 27px;
   color: #F0EDEE;
 }
+@media only screen and (max-width: 700px) {
+ .links {
+   font-size: 38px;
+  }
+ }
