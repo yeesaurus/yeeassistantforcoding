@@ -13,7 +13,7 @@
 ## 🦕YeeTeam
    We are team of 2!
    
-   We love tea and milk!
+   We love tea and cola!
    
    This is our first project!!
    
