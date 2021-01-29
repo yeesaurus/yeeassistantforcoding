@@ -15,9 +15,11 @@ function realtimeClock() {
 }
 function dosearch()
 {
+
     var txt = document.getElementById("search").value;
 
     document.getElementById("stackoverflow").href = "https://stackoverflow.com/search?q=" + txt + "&s=717bc4c6-ce7b-46c8-bddf-6d97e9bdd2bf";
     document.getElementById("reddit").href = "https://www.reddit.com/search?q=" + txt + "&type=sr%2Cuser";
     document.getElementById("wikipedia").href = "https://en.wikipedia.org/wiki/" + txt ;
+    bool = true;
 }
